@@ -24,8 +24,8 @@ $(function($) {
     searchbar: true,
 
     // github specifics
-    github_username: null,
-    github_repo: null,
+    github_username: "GrayOxygen",
+    github_repo: "ShineOxygenWiki",
 
     // initialize function
     run: initialize

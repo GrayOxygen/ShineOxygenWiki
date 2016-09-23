@@ -180,6 +180,8 @@ $(function($) {
   }
 
   function github_search(query) {
+    ditto.github_username="GrayOxygen";
+    ditto.github_repo="ShineOxygenWiki";
     if (ditto.github_username && ditto.github_repo) {
       // build github search api url string
       var github_api = "https://api.github.com/";
@@ -191,6 +193,7 @@ $(function($) {
       var accept_header = "application/vnd.github.v3.text-match+json";
 
       $.ajax(url, {headers: {Accept: accept_header}}).done(function(data) {
+        console.log(data);
         display_search_results(data);
       });
     }

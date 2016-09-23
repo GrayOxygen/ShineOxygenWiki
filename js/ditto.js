@@ -26,6 +26,7 @@ $(function($) {
     // github specifics
     github_username: "GrayOxygen",
     github_repo: "ShineOxygenWiki",
+ 
 
     // initialize function
     run: initialize

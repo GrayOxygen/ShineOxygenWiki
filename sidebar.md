@@ -5,6 +5,7 @@
 - [FAQ](#docs/faq)
 - [API](#docs/api)
 - [Maven](#docs/maven)
-- [Git](#docs/git)
+- Git
+    - [Git命令速查表](#docs/git-freq-used-cmd)
 - [About](#docs/about)
 

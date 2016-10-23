@@ -5,5 +5,6 @@
 - [FAQ](#docs/faq)
 - [API](#docs/api)
 - [Maven](#docs/maven)
+- [Git](#docs/git)
 - [About](#docs/about)
 
